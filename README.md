@@ -51,9 +51,24 @@
 -   typeof - keyword used to find the type of a variable of literal. Always returns a string (can be used for compairison logic)
 
 ## Arithmetic operators
--   +  addition
--   - subtraction
--   * multiplication
--   / division
--   % modulous (mod) - whole numbe remaining after division
--   ** exponentiation (to the power of)
+-   `+` - addition
+-   `-` - subtraction
+-   `*` - multiplication
+-   `/` - division
+-   `%` - modulous (mod) - whole number remaining after division
+-   `**` - exponentiation (to the power of)
+
+## Compairison Operators - Always return a boolean value (True/False)
+-   `>` - greater than
+-   `<` - less than
+-   `>=` - GTE
+-   `<=` - LTE
+-   `==` - loose comparison
+-   `===` - strick comparison
+-   `!=` - NOT compairison
+
+## Logical Operators - allow us to combine comparison operators/boolean values into complex logical statements - always return True/False
+-   Combined with parenthases and comparison operators you can create complex logical operations.
+-   `&&` - AND operator - all combined statments must be true to return true
+-   `||` - OR operator - one of the combined statements must be true to return true
+-   `!` - NOT operator - returns the opposite of the boolean returned
