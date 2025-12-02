@@ -49,6 +49,7 @@
 ## Vocab:
 -   literals - Numberic, Strings, Booleans values declared without a variable. Most often used for logic or console.log()
 -   typeof - keyword used to find the type of a variable of literal. Always returns a string (can be used for compairison logic)
+-   Concatenation - to add together (strings, objects, arrays, lists, tables)
 
 ## Arithmetic operators
 -   `+` - addition
@@ -72,3 +73,13 @@
 -   `&&` - AND operator - all combined statments must be true to return true
 -   `||` - OR operator - one of the combined statements must be true to return true
 -   `!` - NOT operator - returns the opposite of the boolean returned
+
+## String Access
+-   you can access individual indexs(char) of a list(string) using square bracket notation
+-   Using index numbers you can access specific indexs
+- We start counting at 0 zero
+
+## BackTics
+-   Creates a template literal - whatever whitespace or new lines is in your code, is represented in the string and YOU DONT NEED ESCAPE SEQUENCES FOR NEW LINES & QUOTES
+-   String Interpolation - allows direct injection of JS logic and variables into a string, (same as f-string)
+    - variables should by surrounded with `${}`
